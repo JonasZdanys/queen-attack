@@ -59,7 +59,7 @@ public class QueenAttackTests
         Assert.True(QueenAttack.CanAttack(whiteQueen, blackQueen));
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Can_attack_on_first_diagonal()
     {
         var whiteQueen = QueenAttack.Create(2,2);
@@ -67,7 +67,7 @@ public class QueenAttackTests
         Assert.True(QueenAttack.CanAttack(whiteQueen, blackQueen));
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Can_attack_on_second_diagonal()
     {
         var whiteQueen = QueenAttack.Create(2,2);
@@ -75,7 +75,7 @@ public class QueenAttackTests
         Assert.True(QueenAttack.CanAttack(whiteQueen, blackQueen));
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Can_attack_on_third_diagonal()
     {
         var whiteQueen = QueenAttack.Create(2,2);
@@ -83,7 +83,7 @@ public class QueenAttackTests
         Assert.True(QueenAttack.CanAttack(whiteQueen, blackQueen));
     }
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Can_attack_on_fourth_diagonal()
     {
         var whiteQueen = QueenAttack.Create(1,7);

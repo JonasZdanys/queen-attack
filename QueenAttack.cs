@@ -22,7 +22,14 @@ public static class QueenAttack
         }
         else
         {
-            return false;
+            if (white.Column + white.Row == black.Column + black.Row)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 
